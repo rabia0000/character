@@ -59,7 +59,19 @@ public function __construct($name, $health, $rage, $weaponName, $weaponDamage, $
     $this-> shielValue = $shieldValue; 
 
     echo "nouveau personnage $name avec un une arme : $weaponName degat de l'arme : $weaponDamage armure : $shieldName force de l'armure : $shieldValue";
+
+
+
+public function beAttacked($valueDegat){
+    $degat = $valueDegat - this->shiedValue;
+    
 }
+
+
+}
+
+
+
 
 }
 ?>
